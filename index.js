@@ -32,7 +32,7 @@ app
         r.res.download("./img/output.png");
       });
   })
-  .all("/login", (r) => r.res.send("Бао Чинь куок"))
+  .all("/login", (r) => r.res.send("bao-vn"))
   .listen(process.env.PORT || 3000, () => {
     console.log("Server is working");
   });
